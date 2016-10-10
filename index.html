@@ -1,25 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>My Portfolio77</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+	 <meta charset="UTF-8">
+  <title>Lenore Alford | San Francisco Bay Area Front End Web Developer</title>
+  <meta content="Front End Web Developer based in the San Francisco Bay Area, specializing in custom web solutions and apps." name="description">
+ <meta content="Lenore Alford, Front End Web Developer, Web Developer Marin, Front End Web Development, website, website developer, web development bay area, Web Development, JavaScript, jQuery, AJAX, Web API, MVC, AngularJS2, website optimization, CSS3, HTML5, Bootstrap, Jasmine" name="keywords">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="css/styles.css">
    <link rel="stylesheet" href="css/bootstrap.css">
-  <link rel="stylesheet" href="css/styles.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  
+ 
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
+  <script src="jQuery.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-  <style>
+  
+  <script src="app.js"></script>
+<style>
 body {
-	background-image: url("images/eyeglasses1.jpg");
+  background-image: url("images/eyeglasses1.jpg");
 }
 
-.transl:hover {
-	color: #FF7F50;
-	transform: translateX(300px);
-	transition: all 1.5s ease-in-out;
-}  
-  
+
+blockquote {
+	float: right;
+	width: 150px;
+	height: auto;
+} 
 </style>
 </head>
 <body>
@@ -32,14 +38,14 @@ body {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Portfolio</a>
+      <a class="navbar-brand" style="color: white" href="#">Portfolio</a>
     </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
+    <div class="collapse navbar-collapse" style="background-color: grey" id="myNavbar">
       <ul class="nav navbar-nav">
        
-        <li><a href="#about">About</a></li>
-        <li><a href="#portfolio">Work</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a style="color: black" href="#about">About</a></li>
+        <li><a style="color: black" href="#portfolio">Work</a></li>
+        <li><a style="color: black" href="#contact">Contact</a></li>
       </ul>
      
     </div>
@@ -47,37 +53,94 @@ body {
 </nav>
 <div class="container">
 
-<div id="page1" style="height: 600px">
+<div id="page1" style="height: 650px">
   <a id="about" class="smooth"></a>
+  <div class="row">
+  	<div class="col-sm-12">
   <br><br><br>
-    <h1 class = "transl">Custom built websites with flair.</h1>
+  <div>
+    <h1 class = "transl">Websites with flair.</h1>
     <br></br>
-    <h3 style="color: white">I am a web developer in the San Francisco Bay Area who loves to build stylish websites, responsive on any device. I work quickly and for reasonable rates. If you are a business seeking a dynamic web presence or an employer looking to hire, contact me <a href="mailto:lenore.alford@gmail.com">here.</a></h3>
+
+   
+  </div>
+  <div>
+    <h3 style="color: white">I am a web developer in the San Francisco Bay Area who loves to build stylish websites and innovative apps. I work quickly and for reasonable rates. If you are a business seeking a dynamic web presence or an employer looking to hire, let's talk! </h3>
     <br></br>
-      <br><br><br>
-     <button type="button" class="btn btn-info btn-lg" style="background-color: #FF7F50">I need a website</button>  <button type="button" class="btn btn-info btn-lg"  style="background-color: #FF7F50">I'm looking to hire</button>
+    <button type="button" id="button1" class="btn btn-info btn-lg" style="background-color: #FF7F50">Learn more</button> 
+
+      </div>   
+
+</div></div>
+      
+    
 </div>
  </div>
-<div id="page2" style="height: 700px; background-color: #FF7F50">
+<div id="page2">
   <a id="portfolio" class="smooth"></a>
    
     <div class="container">
   <h3 style="color: white" align="center">Recent Projects</h3><br>
   <div class="row">
+  	<div class="col-sm-4">
+  <a href="https://topplethepat.github.io/NeighborhoodMap/"style="text-align:center">Neighborhood Map with Web APIs</a>
+    <div class="map_container">
+    	<div class="map_card">
+       <div class="front face">
+       
+     <img src="images/ScreenshotMap1.png" style="height: 223px; width: auto" class="img-responsive"  align="center" alt="Image"></a>
+       </div>
    
-    <div class="col-sm-4">
-      <p style="text-align:center">Yelp API, Google Maps API, Knockoutjs</p>
-      <a href="https://topplethepat.github.io/NeighborhoodMap/"><img src="images/ScreenshotMap1.png" style= "width: auto; height: 223px" class="img-responsive" align="center" alt="Image"></a>
+    <div class= "back face">
+    	<p>I used the Google Maps API and Yelp API<br>
+    	<p>to create this interactive map that shows<br>
+    	<p>favorite neighborhood places and their Yelp<br>
+    	<p>ratings. A search filter allows the user to search<br>
+    	<p>by categories. I used KnockoutJS and ViewModelVM <br>
+    	<p>	best practices for my code.
+
+    	</p>
+    	</div>
+
     </div>
-    <div class="col-sm-4">
-      <p style="text-align:center">jQuery, JavaScript, Bootstrap</p>
-      <a href="http://shopkeeper.com/"><img src="images/ScreenshotShopkeeper1.png" style="width: auto; height: 223px" class="img-responsive" align="center" alt="Image"></a>
+  </div>
+  	
     </div>
-   
+
+    <div class="col-sm-4">
+    	<a href="http://shopkeeper.com/">Website for ShopKeeper Software</a>
+       <div class="map_container">
+    	<div class="map_card">
+       <div class="front face">
+      <img src="images/ScreenshotShopkeeper1.png"  style="height: 223px; width: auto"class="img-responsive"  alt="Image"></a>
+      
+    </div>
+    <div class= "back face">
+    	<p>I updated the website for ShopKeeper Software,
+    		a company in Austin, TX; I used the Bootstrap framework, JavaScript, jQuery,
+    			 and HTML. Customers purchase 
+    			products on the site using the AmeriKart shopping cart.
+    			</p></div>
+       </div>
+  </div>
+  	
+    </div>	
      <div class="col-sm-4">
-      <p style="text-align:center">jQuery, JSON, CSS, HTML</p>
-       <a href="http://topplethepat.github.io/frontend-nanodegree-resume/"><img src="images/ScreenshotResume.png" style="width: auto; height: 223px" class="img-responsive" alt="Image"></a>
-    </div></div>
+     	<a href="http://topplethepat.github.io/frontend-nanodegree-resume/" style="text-align:center">Interactive Resume</a>
+      <div class="map_container">
+    	<div class="map_card">
+       <div class="front face">
+       <img src="images/ScreenshotResume.png" style="width: auto; height: 223px" class="img-responsive" alt="Image">
+        
+    </div>
+     <div class= "back face">
+     	<p>Using jQuery, I developed an interactive resume application that reads all data from a JSON file and then dynamically modifies the DOM to display the information. Further customized the project by personalizing the design using CSS.
+    			</p></div>
+</div>
+    </div>
+  </div>
+  	
+    </div>
     <div class = "row">
     	<div class="col-sm-12"></div></div><br></br>
     <div class ="row">
@@ -85,14 +148,32 @@ body {
     </div>
 
     <div class="col-sm-4">
-     
-       <a href="http://topplethepat.github.io/frontend-nanodegree-arcade-game-master/"><img src="images/ScreenshotGame4.png" style="width: auto; height: 223px" align="center" alt="Image"></a>
-       <p style="text-align:center">Object-oriented JS, HTML5 Canvas</p>
+    	 <a href="http://topplethepat.github.io/frontend-nanodegree-arcade-game-master/">"Frogger" clone</a>
+      <div class="map_container">
+    	<div class="map_card">
+       <div class="front face">
+       <a href="http://topplethepat.github.io/frontend-nanodegree-arcade-game-master/"><img src="images/ScreenshotGame4.png" class="img-responsive" style="width: auto; height: 223px" align="center" alt="Image"></a>
+      </div>
+          <div class= "back face">
+     	<p>An HTML5 Canvas powered video game, developed using the best practices in Object Oriented JavaScript.
+    			</p></div>
+</div>
     </div>
+  </div>
+   
     <div class="col-sm-4">
-     
-      <a href="https://topplethepat.github.io/udportfolio/"><img src="images/ScreenshotOptimization.png" style="width: 360px; height: 223px" align="center" alt="Image"></a>
-       <p style="text-align:center">Website optimization, Chrome Dev Tools</p>
+    	<a href="https://topplethepat.github.io/udportfolio/">Website optimization, Chrome Dev Tools</a>
+      <div class="map_container">
+    	<div class="map_card">
+       <div class="front face">
+      <img src="images/ScreenshotOptimization.png" class="img-responsive" style="width: 360px; height: 223px" align="center" alt="Image"></a>
+        </div>
+          <div class= "back face">
+     	<p>I optimized an inefficient web application's JavaScript, CSS and assets delivery, ensuring it runs at 60fps and achieves a PageSpeed score of at least 90.
+    			</p></div>
+    			</div>
+    </div>
+  </div>
     </div>
     	<div class="col-sm-2">
     </div>
@@ -101,13 +182,15 @@ body {
 </div>
 </div>
 
-
-
  
-<div id="page3" style="height: 300px; background-color: grey">
+<div id="page3" style="height: 350px; background-color: grey">
   <a id="contact" class="smooth"></a>
   <div class="container">
- 
+ <div class="row">
+ 	<div class="col-sm-12">
+ 		<div>
+ 		<!--  <blockquote> <a class="twitter-timeline"  style="img-responsive" href="https://twitter.com/search?q=LenoreAudreyJ" data-widget-id="784943534050676736">Tweets about LenoreAudreyJ</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script> </div> -->
  <div class="text-center">
 		<h3 style="color: white">Contact me</h3></div>
 			
@@ -115,6 +198,7 @@ body {
       	<img src="images/headshotBW.jpeg" style="height: 85px; width: 85px; border-radius: 50%"></div>
   <div class="text-center">
 		<h4 style="color: white">(415) 259-7224</h4></div>
+	
 		  <div class="row">
 		
 		 <div class="col-sm-4"></div>
@@ -134,9 +218,11 @@ body {
 			<a href = "https://twitter.com/LenoreAudreyJ"><img src="images/Twitter.png" alt="twitter"></a>
 		</div>
 		 <div class="col-sm-4"></div>
+		 </div></div>
  </div>
 </div>
 </div>
+
 
 </body>
 </html>	

@@ -1,0 +1,127 @@
+
+blockquote {
+  float: right;
+  width: 150px;
+  height: auto;
+} 
+
+.transl:hover {
+  color: red;
+  
+  -webkit-transform: translateX(300px);
+   -o-transform: translateX(300px);
+    -ms-transform: translateX(300px);
+     -moz-transform: translateX(300px);
+  transform: translateX(300px);
+  
+  -webkit-transition: all 1.5s ease-in-out;
+  -o-transition: all 1.5s ease-in-out;
+  -ms-transition: all 1.5s ease-in-out;
+  -moz-transition: all 1.5s ease-in-out;
+  transition: all 1.5s ease-in-out;
+  font-size: 4em;
+} 
+
+#page2 {
+  /*height: 1400px;*/
+  background-color: #FF7F50;
+}
+@media screen and (min-width: 320px) {
+  #page2 {
+    height: 1400px;
+  }
+  .transl {
+    color: #FF7F50;
+  }
+
+  
+}
+@media screen and (max-width: 500px) {
+  #page2 {
+    height: 1450px;
+  }
+  .transl {
+    color: #FF7F50;
+  }
+  
+}
+@media screen and (min-width: 501px) {
+  #page2 {
+    height: 1200px;
+  }
+}
+@media screen and (min-width: 600px) {
+  #page2 {
+    height: 1200px;
+  }
+}
+ @media screen and (min-width: 768px) {
+  #page2 {
+    height: 700px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  #page2 {
+    height: 550px;
+  }
+  h1 {
+    font-size: 4em;
+  }
+
+}
+.map_container {
+  position: relative;
+  margin: 10px auto;
+  width: auto;
+  height: 223px;
+  z-index: 1;
+}
+.map_container {
+  perspective: 1000;
+}
+
+.map_card {
+  width: 100%;
+  height: 223px;
+  -webkit-transform-style: preserve-3d;
+   -o-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+     -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transition:all 1s linear;
+  -o-transition:all 1s linear;
+  -ms-transition:all 1s linear;
+  -moz-transition:all 1s linear;
+  transition:all 1s linear;
+ 
+}
+
+.map_container:hover .map_card {
+
+  -o-transform:rotateY(180deg);
+  -ms-transform:rotateY(180deg);
+  -moz-transform:rotateY(180deg);
+  -webkit-transform:rotateY(180deg);
+  transform:rotateY(180deg);
+}
+
+.face {
+  position: absolute;
+  width: 100%;
+  height: 223px;
+  backface-visibility: hidden;
+}
+.face.back {
+  display: block;
+  -webkit-transform:rotateY(180deg);
+  -o-transform:rotateY(180deg);
+  -ms-transform:rotateY(180deg);
+  -moz-transform:rotateY(180deg);
+  transform: rotateY(180deg);
+  box-sizing: border-box;
+  padding: 10px;
+  color: white;
+  background-color: #aaa;
+
+}
+    
