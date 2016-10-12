@@ -15,21 +15,19 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   
   <script src="app.js"></script>
-<style>
+  <style>
 body {
-  background-image: url("images/eyeglasses1.jpg");
+  background-image: url("images/LenoreCafeSmall5.jpg");
 }
-
-
-blockquote {
-	float: right;
-	width: 150px;
-	height: auto;
-} 
-</style>
+@media only screen and (min-width: 415px) {
+	body {
+		background-image: url("images/LenoreCafe2.jpg");
+	}
+}
+  </style>
 </head>
 <body>
-
+ 
 	<nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -40,12 +38,13 @@ blockquote {
       </button>
       <a class="navbar-brand" style="color: white" href="#">Portfolio</a>
     </div>
-    <div class="collapse navbar-collapse" style="background-color: grey" id="myNavbar">
+    <div class="collapse navbar-collapse" style="background-color: #C8C8C8" id="myNavbar">
+    <a href="https://www.linkedin.com/in/lenore-alford"><img src="images/avatar.png" class="img-responsive" style="margin-top: 33px; float: right; height: 40px; width: 40px"></a><br><p style="margin: 10px; float: right">LENORE ALFORD<br> Web Developer</p>
       <ul class="nav navbar-nav">
-       
         <li><a style="color: black" href="#about">About</a></li>
         <li><a style="color: black" href="#portfolio">Work</a></li>
         <li><a style="color: black" href="#contact">Contact</a></li>
+       
       </ul>
      
     </div>
@@ -57,6 +56,7 @@ blockquote {
   <a id="about" class="smooth"></a>
   <div class="row">
   	<div class="col-sm-12">
+  		
   <br><br><br>
   <div>
     <h1 class = "transl">Websites with flair.</h1>
@@ -64,8 +64,8 @@ blockquote {
 
    
   </div>
-  <div>
-    <h3 style="color: white">I am a web developer in the San Francisco Bay Area who loves to build stylish websites and innovative apps. I work quickly and for reasonable rates. If you are a business seeking a dynamic web presence or an employer looking to hire, let's talk! </h3>
+  <div style="text-align: center">
+    <h3 style="color: white">I am a web developer in the San Francisco Bay Area who loves to build stylish websites and innovative apps. If you are a business seeking a dynamic web presence or an employer looking to hire, let's talk! </h3>
     <br></br>
     <button type="button" id="button1" class="btn btn-info btn-lg" style="background-color: #FF7F50">Learn more</button> 
 
@@ -92,12 +92,12 @@ blockquote {
        </div>
    
     <div class= "back face">
-    	<p>I used the Google Maps API and Yelp API<br>
-    	<p>to create this interactive map that shows<br>
-    	<p>favorite neighborhood places and their Yelp<br>
-    	<p>ratings. A search filter allows the user to search<br>
-    	<p>by categories. I used KnockoutJS and ViewModelVM <br>
-    	<p>	best practices for my code.
+    	<p>I used the Google Maps API and Yelp API
+    	to create this interactive map that shows
+    	favorite neighborhood places and their Yelp
+    	ratings. A search filter allows the user to search
+    	by categories. I used KnockoutJS and VMVM 
+    	best practices for my code.
 
     	</p>
     	</div>
@@ -136,7 +136,7 @@ blockquote {
      <div class= "back face">
      	<p>Using jQuery, I developed an interactive resume application that reads all data from a JSON file and then dynamically modifies the DOM to display the information. Further customized the project by personalizing the design using CSS.
     			</p></div>
-</div>
+     </div>
     </div>
   </div>
   	
@@ -152,7 +152,7 @@ blockquote {
       <div class="map_container">
     	<div class="map_card">
        <div class="front face">
-       <a href="http://topplethepat.github.io/frontend-nanodegree-arcade-game-master/"><img src="images/ScreenshotGame4.png" class="img-responsive" style="width: auto; height: 223px" align="center" alt="Image"></a>
+       <img src="images/ScreenshotGame4.png" class="img-responsive" style="width: 384px; height: 223px" align="center" alt="Image"></a>
       </div>
           <div class= "back face">
      	<p>An HTML5 Canvas powered video game, developed using the best practices in Object Oriented JavaScript.
@@ -166,7 +166,7 @@ blockquote {
       <div class="map_container">
     	<div class="map_card">
        <div class="front face">
-      <img src="images/ScreenshotOptimization.png" class="img-responsive" style="width: 360px; height: 223px" align="center" alt="Image"></a>
+      <img src="images/ScreenshotOptimization.png" class="img-responsive" style="width: auto; height: 223px" align="center" alt="Image"></a>
         </div>
           <div class= "back face">
      	<p>I optimized an inefficient web application's JavaScript, CSS and assets delivery, ensuring it runs at 60fps and achieves a PageSpeed score of at least 90.
@@ -183,14 +183,13 @@ blockquote {
 </div>
 
  
-<div id="page3" style="height: 350px; background-color: grey">
+<div id="page3" style="height: 350px; background-color: #C8C8C8">
   <a id="contact" class="smooth"></a>
   <div class="container">
  <div class="row">
  	<div class="col-sm-12">
  		<div>
- 		<!--  <blockquote> <a class="twitter-timeline"  style="img-responsive" href="https://twitter.com/search?q=LenoreAudreyJ" data-widget-id="784943534050676736">Tweets about LenoreAudreyJ</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script> </div> -->
+ 		
  <div class="text-center">
 		<h3 style="color: white">Contact me</h3></div>
 			
@@ -208,8 +207,7 @@ blockquote {
 		<div class="col-sm-1">
 			<a href="https://www.linkedin.com/in/lenore-alford"><img src="images/Linkedin.png" alt="linkedin"></a>
 		</div>
-		<!--  <div class="col-sm=2">
-			<img src="avatar.png"></div> -->
+		
 		<div class="col-sm-1">
 			
 			<a href="mailto:lenore.alford@gmail.com"><img src="images/mail1.png" alt="email"></a>
@@ -221,6 +219,9 @@ blockquote {
 		 </div></div>
  </div>
 </div>
+<br><br><br>
+<div style="text-align: center; color: white">
+	<p><small>&copy; 2016 Lenore Alford</small></p></div>
 </div>
 
 

@@ -1,13 +1,7 @@
 
-blockquote {
-  float: right;
-  width: 150px;
-  height: auto;
-} 
-
 .transl:hover {
-  color: red;
   
+  color: #FF4500;
   -webkit-transform: translateX(300px);
    -o-transform: translateX(300px);
     -ms-transform: translateX(300px);
@@ -121,7 +115,8 @@ blockquote {
   box-sizing: border-box;
   padding: 10px;
   color: white;
-  background-color: #aaa;
+  background-color: rgb(255, 0, 0);
+  opacity: 0.8;
 
 }
     
