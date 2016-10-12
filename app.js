@@ -5,13 +5,7 @@ $(document).ready(function(){
 		console.log('y');
 	});
 
-	// $('#page1').hover(function(){
-	// 	$(.transl).css("color", "#FF7F50");
-	// }, function(){
 
-	// 	$(.transl).css("transform","translateX(300px)","transition.all 1.5s ease-in-out");
-	
-	// })
 });
 		
 
