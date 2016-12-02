@@ -8,5 +8,6 @@ $(document).ready(function(){
 
 });
 		
-
+//btn btn-info btn-lg
+//<button onclick="window.location.href='https://docs.google.com/document/d/1UiUGZQI5tG8LptkqGD_gF68yWM8sIbxOkk3281qE9dE/edit?usp=sharing';
 	

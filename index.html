@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title>Lenore Alford | San Francisco Bay Area Front End Web Developer</title>
     <meta content="Front End Web Developer Lenore Alford based in the San Francisco Bay Area, specializing in responsive website solutions and apps." name="description">
-    <meta content="Lenore Alford, Front End Web Developer, Lenore Alford Portfolio, Web Developer Marin, Front End Web Development, website, responsive web design, website developer, front end web development bay area, Web Development, JavaScript, Freelance resources, jQuery, website optimization, CSS3, HTML5, Bootstrap" name="keywords">
+    <meta content="Lenore Alford, Front End Web Developer, Lenore Alford Portfolio, Web Developer Marin, Front End Web Development, website, responsive web design, website developer, front end web development bay area, Web Development, SEO, JavaScript, Freelance resources, jQuery, website optimization, CSS3, HTML5, Bootstrap" name="keywords">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
     <link rel="stylesheet" href="css/bootstrap.min.css"> 
@@ -21,6 +21,7 @@
             body {
                 background-image: url("images/LenoreCafe7.jpg");
                 background-repeat: no-repeat;
+
                  
             }
         }
@@ -128,7 +129,29 @@
                     </div>
 
                 </figure>
-                <figure class="col-sm-4">
+                  <figure class="col-sm-4">
+                    <a href="https://topplethepat.github.io/MaunaLoa/">Website for Mauna Loa Restaurant</a>
+                    <div class="map_container">
+                        <div class="map_card">
+                            <div class="front face">
+                                <img src="images/ScreenshotML.png" style="height: 223px; width: auto" class="img-responsive" alt="Image"></a>
+
+                            </div>
+                            <div class="back face">
+                                <p>I created a website for a local restaurant showcasing their menu through images and enlarged modals and providing a form to use for catering requests; I used the Bootstrap framework. The website is fully responsive and uses Google Analytics to keep track of traffic.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </figure>
+            
+            <div class="row">
+                <div class="col-sm-12"></div>
+            </div>
+            <br></br>
+            <div class="row">
+                  <figure class="col-sm-4">
                     <a href="http://topplethepat.github.io/frontend-nanodegree-resume/" style="text-align:center">Interactive Mockup "Resume"</a>
                     <div class="map_container">
                         <div class="map_card">
@@ -142,16 +165,9 @@
                             </div>
                         </div>
                     </div>
-                </div>
-
-            </figure>
-            <div class="row">
-                <div class="col-sm-12"></div>
-            </div>
-            <br></br>
-            <div class="row">
-                <div class="col-sm-2">
-                </div>
+               
+                
+                </figure>
 
                 <figure class="col-sm-4">
                     <a href="http://topplethepat.github.io/frontend-nanodegree-arcade-game-master/">"Frogger" clone</a>
@@ -183,8 +199,7 @@
                     </div>
                 </div>
             </figure>
-            <div class="col-sm-2">
-            </div>
+            
 
         </div>
     </div>
@@ -221,16 +236,43 @@
  </div>
    <div class="form-group">
       <label for="msg">Message</label>
-      <textarea name = "body" class="form-control" id="msg"></textarea>
+      <textarea name = "body" class="form-control" rows="3" cols="20" placeholder="Box expands!"id="msg"></textarea>
    </div>
    <button type="submit" class="btn btn-default" value="Send" style= "color: #FF4500">Send</button>
 </form>
                 </div>
           
             <br>
-           
+<!-- <div><input id="input placeholder=you-chat-here" /></div>
+
+
+<div id="box"></div>
+
+<script src="https://cdn.pubnub.com/sdk/javascript/pubnub.4.0.11.min.js"></script>
+<!-- <script src="3.js"></script>
+<script src="2.js"></script>  -->
+<!--// <script>(function(){
+//       var pubnub = new PubNub({ publishKey : 'pub-c-e447883d-c73c-401d-b0ec-a2dc7f0deafd', subscribeKey : 'sub-c-d4dca206-af4a-11e6-b697-0619f8945a4f' });
+//       function $(id) { return document.getElementById(id); }
+//       var box = $('box'), input = $('input'), channel = '10chat-demo';
+//       pubnub.addListener({
+//           message: function(obj) {
+//               box.innerHTML = (''+obj.message).replace( /[<>]/g, '' ) + '<br>' + box.innerHTML
+//           }});
+//       pubnub.subscribe({channels:[channel]});
+
+//       input.addEventListener('keyup', function(e) {
+//           if ((e.keyCode || e.charCode) === 13) {
+//             pubnub.publish({channel : channel,message : input.value,x : (input.value='')});
+//         }
+
+//       });
+//       pubnub.publish({ channel : 'chat', message : "hello!" })
+// })(); -->
+
             
-            <footer style="text-align: center; color: black">
+            
+            <footer style="text-align: center; color: black"> 
                 <p><small>&copy; 2016 Lenore Alford</small></p>
             </footer>
         </div>
@@ -244,4 +286,4 @@
      <script async src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
 </body>
 
-</html>
+</html> 
